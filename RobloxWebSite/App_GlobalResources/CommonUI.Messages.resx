@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action.Accept" xml:space="preserve">
+    <value>Accept All</value>
+  </data>
+  <data name="Action.Decline" xml:space="preserve">
+    <value>Decline All</value>
+  </data>
+  <data name="Action.OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Action.PreviousPage" xml:space="preserve">
+    <value>Go to the Previous Page</value>
+  </data>
+  <data name="Action.ReturnHome" xml:space="preserve">
+    <value>Return Home</value>
+  </data>
+  <data name="CookieLawNoticev2" xml:space="preserve">
+    <value>Roblox uses cookies to personalize content, provide social media features and analyze the traffic on our site. To learn about how we use cookies and how you can {startLink}manage cookie preferences{endLink}, please refer to our {startLink2}Privacy and Cookie Policy{endLink2}.</value>
+  </data>
+  <data name="Description.ErrorPageCheckStatus" xml:space="preserve">
+    <value>If you continue to receive this message, check out {startLink}our status{endLink}.</value>
+  </data>
+  <data name="Description.ErrorPageLetUsKnow" xml:space="preserve">
+    <value>If you continue to receive this page, please contact customer service at {0}.</value>
+  </data>
+  <data name="Label.Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Label.ErrorImage" xml:space="preserve">
+    <value>Error Image</value>
+  </data>
+  <data name="Label.TooManyCharacters" xml:space="preserve">
+    <value>Too many characters!</value>
+  </data>
+  <data name="Message.AlwaysAllowed" xml:space="preserve">
+    <value>Always allowed</value>
+  </data>
+  <data name="Message.AnalyiticsCookies" xml:space="preserve">
+    <value>Analytics Cookies</value>
+  </data>
+  <data name="Message.AnalyiticsCookiesDescription" xml:space="preserve">
+    <value>These cookies used for improving site performance or understanding site usage.</value>
+  </data>
+  <data name="Message.AnalyiticsCookiesItem1" xml:space="preserve">
+    <value>Google Analytics</value>
+  </data>
+  <data name="Message.AnalyiticsCookiesItem2" xml:space="preserve">
+    <value>Google Universal Analytics</value>
+  </data>
+  <data name="Message.CDRedirection" xml:space="preserve">
+    <value>This page has been migrated to the Creator Dashboard. You can use the updated page by clicking.</value>
+  </data>
+  <data name="Message.CDRedirectionLinkText" xml:space="preserve">
+    <value>[here]</value>
+  </data>
+  <data name="Message.CDRedirectionMessage" xml:space="preserve">
+    <value>This page has been migrated to the Creator Dashboard. You can use the updated page by clicking {linkText}.</value>
+  </data>
+  <data name="Message.CookieLawNotice" xml:space="preserve">
+    <value>Roblox uses cookies to offer you a better experience. For further information, including information on how to withdraw consent and how to manage the use of cookies on Roblox, please refer to our {startLink}Privacy and Cookie Policy{endLink}.</value>
+  </data>
+  <data name="Message.CookieLawNoticev2" xml:space="preserve">
+    <value>Roblox uses cookies to personalize content, provide social media features and analyze the traffic on our site. To learn about how we use cookies and how you can {startLink}manage cookie preferences{endLink}, please refer to our {startLink2}Privacy and Cookie Policy{endLink2}.</value>
+  </data>
+  <data name="Message.CookieModalText" xml:space="preserve">
+    <value>Please choose whether this site may use cookies as described below. You can learn more about how this site uses cookies and related technologies by reading our {startLink}privacy policy{endLink}.</value>
+  </data>
+  <data name="Message.ErrorGeneral" xml:space="preserve">
+    <value>Something went wrong. Please check back in a few minutes.</value>
+  </data>
+  <data name="Message.EssentialCookies" xml:space="preserve">
+    <value>Essential Cookies</value>
+  </data>
+  <data name="Message.EssentialCookiesDescription" xml:space="preserve">
+    <value>These cookies are required to provide the functionality on the site, such as for user authentication, securing the system or saving cookie preferences.</value>
+  </data>
+  <data name="Message.EssentialCookiesItem1" xml:space="preserve">
+    <value>Roblox</value>
+  </data>
+  <data name="Message.EssentialCookiesItem2" xml:space="preserve">
+    <value>Zendesk</value>
+  </data>
+  <data name="Message.ManageCookies" xml:space="preserve">
+    <value>Manage Cookies</value>
+  </data>
+  <data name="Message.OperationUnavailable" xml:space="preserve">
+    <value>The operation is temporarily unavailable. Please try again later.</value>
+  </data>
+  <data name="Message.RequestSizeOverLimit" xml:space="preserve">
+    <value>Request size was over limit.</value>
+  </data>
+  <data name="Message.TextWasModerated" xml:space="preserve">
+    <value>Text was moderated.</value>
+  </data>
+  <data name="MessageEssentialCookiesItem3" xml:space="preserve">
+    <value>Gigya</value>
+  </data>
+  <data name="Response.AccessDenied" xml:space="preserve">
+    <value>Access Denied</value>
+  </data>
+  <data name="Response.AccessDeniedDescription" xml:space="preserve">
+    <value>Sorry, you don't have permission to view this page!</value>
+  </data>
+  <data name="Response.BadRequest" xml:space="preserve">
+    <value>Bad Request</value>
+  </data>
+  <data name="Response.BadRequestDescription" xml:space="preserve">
+    <value>There was a problem with your request</value>
+  </data>
+  <data name="Response.InternalServerError" xml:space="preserve">
+    <value>Unexpected error with your request</value>
+  </data>
+  <data name="Response.InternalServerErrorDescription" xml:space="preserve">
+    <value>Please try again after a few moments.</value>
+  </data>
+  <data name="Response.PageNotFound" xml:space="preserve">
+    <value>Requested page not found</value>
+  </data>
+  <data name="Response.PageNotFoundDescription" xml:space="preserve">
+    <value>You may have clicked an expired link or mistyped the address.</value>
+  </data>
+  <data name="Response.RequestError" xml:space="preserve">
+    <value>Error with your request</value>
+  </data>
+  <data name="Response.SomethingWentWrong" xml:space="preserve">
+    <value>Something went wrong</value>
+  </data>
+  <data name="Response.TooManyAttemptsText" xml:space="preserve">
+    <value>Too Many Attempts</value>
+  </data>
+  <data name="Response.UnexpectedError" xml:space="preserve">
+    <value>An unexpected error occurred. Please try again later.</value>
+  </data>
+  <data name="Response.UnsafeInput" xml:space="preserve">
+    <value>You are not allowed to use HTML characters such as &lt;b&gt; in forms on the website.</value>
+  </data>
+  <data name="Title.UnsafeInput" xml:space="preserve">
+    <value>Unsafe Input</value>
+  </data>
+</root>
